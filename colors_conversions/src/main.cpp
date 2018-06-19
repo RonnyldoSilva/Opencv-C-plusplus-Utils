@@ -26,11 +26,11 @@ int main(int argc, char** argv) {
 	cvtColor(rgb, hsv, cv::COLOR_RGB2HSV);
 	cvtColor(rgb, hls, cv::COLOR_RGB2HLS);
 	
-	imwrite("1.jpg", gray);
-	imwrite("2.jpg", xyz);
-	imwrite("3.jpg", ycrcb);
-	imwrite("4.jpg", hsv);
-	imwrite("5.jpg", hls);
+	imwrite("1_gray.jpg", gray);
+	imwrite("2_xyz.jpg", xyz);
+	imwrite("3_ycrcb.jpg", ycrcb);
+	imwrite("4_hsv.jpg", hsv);
+	imwrite("5_hls.jpg", hls);
 
 	return 0;
 }
