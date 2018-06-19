@@ -7,13 +7,18 @@ double calcEntropy(Mat frame) {
 
 	map<unsigned char, size_t> pixel_map;
 
-	for (int j = 0; j < frame.rows; j++)
-	for (int i = 0; i < frame.cols; i++)
-	pixel_map[frame.at<unsigned char>(j, i)]++;
+	for (int j = 0; j < frame.rows; j++) {
+
+		for (int i = 0; i < frame.cols; i++) {
+
+			pixel_map[frame.at<unsigned char>(j, i)]++;
+		}
+	}
 
 	double entropy = 0;
 
 	for (map<unsigned char, size_t>::const_iterator ci = pixel_map.begin(); ci != pixel_map.end(); ci++) {
+
 		double probability = ci->second / static_cast<double>(frame.rows*frame.cols);
 		entropy += probability * log(probability);
 	}
