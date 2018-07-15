@@ -2,7 +2,7 @@
 
 This repository has some codes in C++ with Opencv. 
 
-### What is Opencv?
+### What is OpenCV?
 
 See on opencv.org
 
