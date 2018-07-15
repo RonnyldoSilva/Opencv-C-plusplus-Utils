@@ -1,4 +1,4 @@
-# Opencv_C-_Utils
+# OpenCV C++ Utils
 
 This repository has some codes in C++ with Opencv. 
 
