@@ -6,6 +6,6 @@ This repository has some codes in C++ with Opencv.
 
 See on opencv.org
 
-### How to install it?
+### How to install OpenCV?
 
 See here: https://github.com/RonnyldoSilva/Install-and-Training-Tesseract-4-OCR-Opencv
