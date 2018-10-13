@@ -4,7 +4,8 @@ This repository has some codes in C++ with Opencv.
 
 ### What is OpenCV?
 
-See on opencv.org
+It is a open source computer vision library.
+See more on opencv.org
 
 ### How to install OpenCV?
 
