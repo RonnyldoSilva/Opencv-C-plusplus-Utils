@@ -1,5 +1,7 @@
 # OpenCV C++ Utils
 
+:star::star::star::star::star:
+
 This repository has some codes in C++ with Opencv. 
 
 ### What is OpenCV?
