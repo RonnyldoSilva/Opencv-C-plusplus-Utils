@@ -1,6 +1,6 @@
 # OpenCV C++ Utils
 
-:star::star::star::star::star:
+:star::star::star::star::star: (if you like it, leave a star)
 
 This repository has some codes in C++ with Opencv. 
 
