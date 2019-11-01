@@ -215,3 +215,4 @@ double calcEntropia::calcularEntropiaFinal(String path)
 calcEntropia::~calcEntropia() {
 
 }
+ 
